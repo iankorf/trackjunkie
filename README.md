@@ -9,6 +9,10 @@ updated at several points during the year, and will need to be run a few times.
 	perl junkie.pl > 2023-automated
 
 There may be other events not listed, for example open test days or private
-events. These will have to be added manually to `2023-manual`.
+events. Also, HPDE Junkie shows Canadian tracks but doesn't list them. These
+types of extras will have to be added manually to `2023-manual`.
 
 Then some later script reads these files and clusters track dates by region.
+
+	perl cluster.pl 2023-manual 2023-automated
+
