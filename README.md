@@ -14,5 +14,6 @@ types of extras will have to be added manually to `2023-manual`.
 
 Then some later script reads these files and clusters track dates by region.
 
-	perl cluster.pl 2023-manual 2023-automated
+## Log ##
 
++ 2023-01-21: first check-in, 1496 track events listed
